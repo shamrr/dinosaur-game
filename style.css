@@ -1,3 +1,58 @@
+html{
+    font-size: 10px;
+}
+.game{
+    width: 70rem;
+    height: 40rem;
+    border-bottom: 1px solid #000;
+    margin: 0 auto;
+}
+#character{
+    width: 8rem;
+    height: 10rem;
+    background-image: url(img/character.png);
+    background-size: 8rem 10rem;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 30rem;
+}
+#pet{
+    width: 12rem;
+    height: 6rem;
+    background-image: url(img/морскойКотик.png);
+    background-size: 12rem 6rem;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 24.3rem;
+    left: 58rem;
+    animation: petMove 4s infinite linear;
+}
+@keyframes petMove {
+    0% {
+        left: 58rem;
+    }
+    100%{
+        left: -2rem;
+    }
+}
 
-
-
+.jump{
+    animation: jump 1s infinite linear;
+}
+@keyframes jump {
+    0% {
+        top: 30rem;
+    }
+    30%{
+        top: 25rem;
+    }
+    50%{
+        top: 20rem;
+    }
+    80%{
+        top: 25rem;
+    }
+    100%{
+        top: 30rem;
+    }
+}
