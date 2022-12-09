@@ -29,11 +29,11 @@ body{
     position: relative;
     top: 24.3rem;
     left: 58rem;
-    animation: petMove 2.2s infinite linear;
+    animation: petMove 2.4s infinite linear;
 }
 @keyframes petMove {
     0% {
-        left: 58rem;
+        left: 100%;
     }
     100%{
         left: -2rem;
